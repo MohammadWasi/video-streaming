@@ -1,0 +1,8 @@
+{
+  "sliderArray":[
+   {"url": "https://bitmovin-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd", "title": "Mi Cama", "text": "Days Of  a year", "imgUrl": "assets/grey.jpg", "views": 300},
+   {"url": "https://bitmovin-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd", "title": "machika",  "text": "J. Balvin, Jeon, Anitta - Machika ", "imgUrl": "assets/blue.jpg", "views": 400},
+   {"url": "https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd", "title": "ambiente", "text": "j balvin ambiente", "imgUrl": "assets/red.jpg", "views": 400},
+   {"url": "https://bitmovin-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd", "title": "yo te lo dije", "text": "j balvin yo te lo dije", "imgUrl": "assets/silver.jpg", "views": 200}
+  ]
+}

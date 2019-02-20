@@ -1,0 +1,22 @@
+<div class="main_container">
+        <div class="title"> Latest Videos</div>
+        <div class="video_container">
+ <div class="latest_video_container" *ngFor="let item of dataArray; let i = index;" (click)="openPlayer(i,item)">
+     <video id="video_{{i}}"
+width="200"
+poster="{{item.imgUrl}}" controls autoplay></video>
+     <div class="video_title">{{item.title}}</div>
+     <div class="channel_title">{{item.text}}</div>
+     <div class="video_veiws">{{item.views}}</div>
+ </div>
+</div>
+</div>
+<div id="overlay" *ngIf="selectedVideo">
+        <div class="close" (click)="dismiss()"></div>
+    <div class="video_container">
+    <video id="video"
+           width="auto"
+           poster="{{selectedVideo.imgUrl}}"
+           controls autoplay (click)="initPlayer(selectedVideo)"></video>
+           </div>
+</div>
